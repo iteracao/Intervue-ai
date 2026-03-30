@@ -1,0 +1,1 @@
+Real-time desktop interview assistant with live transcription, question detection, and AI-powered answer suggestions.

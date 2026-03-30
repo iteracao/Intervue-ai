@@ -1,0 +1,36 @@
+Intervue AI is a desktop assistant for live technical conversations and interviews.
+
+It processes system audio output locally, transcribes speech in real time, detects likely questions, and suggests concise AI-powered answers while the conversation is happening.
+
+Key features:
+- Real-time system audio processing
+- Live transcription
+- Automatic question detection
+- Context-aware answer suggestions
+- Support for multiple transcription providers
+- Secure local API key storage
+- Desktop-first workflow with a simple interface
+
+Transcription options:
+- OpenAI
+- Vosk
+- Faster-Whisper
+
+Intervue AI is designed to help users during technical interviews, professional discussions, and other live spoken sessions where immediate contextual assistance is valuable.
+
+User control:
+- Detection runs only when explicitly started by the user
+- Users can stop processing at any time
+- No background recording occurs
+
+Privacy and data usage:
+- The app runs locally on your device
+- No hidden recording or undisclosed background data collection is performed
+- Audio and text may be sent to third-party AI services only when enabled and configured by the user
+- API keys are stored securely using Windows Credential Manager
+
+Requirements:
+- Windows 10 or Windows 11
+- Audio output device
+- OpenAI API key for OpenAI-based features
+- Optional local/offline transcription models or executables for Vosk and Faster-Whisper
