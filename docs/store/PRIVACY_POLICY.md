@@ -39,6 +39,7 @@ Users control:
 If the user enables cloud-based AI providers, those services may process submitted audio or text according to their own terms and privacy policies.
 
 ## Contact
-Support email: support@yourdomain.com
-Privacy policy URL: https://yourdomain.com/privacy
-Support website: https://yourdomain.com
+Company: ITERAÇÃO - SISTEMAS E SOLUÇÕES INFORMÁTICAS, LDA  
+Support email: info@iteracao.pt  
+Privacy policy URL: https://iteracao.github.io/Intervue-ai/privacy/  
+Website: https://iteracao.github.io/Intervue-ai/
