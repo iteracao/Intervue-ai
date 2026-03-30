@@ -25,4 +25,4 @@ API keys are stored securely using Windows Credential Manager.
 OpenAI may process data when enabled.
 
 ## Contact
-support@yourdomain.com
+info@iteracao.pt
