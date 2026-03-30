@@ -2,6 +2,8 @@
   <PropertyGroup>
     <StoreDisplayName>Intervue AI</StoreDisplayName>
     <StorePublisherDisplayName>ITERAÇÃO - SISTEMAS E SOLUÇÕES INFORMÁTICAS, LDA</StorePublisherDisplayName>
-    <StoreShortDescription>Real-time desktop interview assistant with live transcription and AI answer suggestions.</StoreShortDescription>
+    <StoreShortDescription>
+      Real-time desktop interview assistant with live transcription, question detection, and AI-powered answer suggestions.
+    </StoreShortDescription>
   </PropertyGroup>
 </Project>
