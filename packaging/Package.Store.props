@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <StoreDisplayName>Intervue AI</StoreDisplayName>
+    <StorePublisherDisplayName>Your Name or Company</StorePublisherDisplayName>
+    <StoreShortDescription>Real-time desktop interview assistant with live transcription and AI answer suggestions.</StoreShortDescription>
+  </PropertyGroup>
+</Project>
