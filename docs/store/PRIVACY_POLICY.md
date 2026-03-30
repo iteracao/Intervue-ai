@@ -27,3 +27,6 @@ OpenAI may process data when enabled.
 ## Contact
 ITERAÇÃO - SISTEMAS E SOLUÇÕES INFORMÁTICAS, LDA  
 info@iteracao.pt
+
+Privacy policy URL: https://iteracao.github.io/Intervue-ai/privacy.html
+Website: https://iteracao.github.io/Intervue-ai/
