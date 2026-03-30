@@ -39,6 +39,16 @@ Built with .NET 8 and WPF, it captures system audio, performs real-time transcri
 
 ---
 
+## 📸 Screenshots
+
+### Live detection and AI answers
+![Live](assets/screenshots/live.png)
+
+### Configuration
+![Settings](assets/screenshots/settings.png)
+
+---
+
 ## ⚙️ Requirements
 
 - Windows 10 / 11  
