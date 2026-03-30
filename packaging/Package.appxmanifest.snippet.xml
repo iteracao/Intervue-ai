@@ -1,0 +1,8 @@
+<!-- Requires manifest namespace:
+xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+-->
+<Capabilities>
+  <Capability Name="internetClient" />
+  <Capability Name="privateNetworkClientServer" />
+  <rescap:Capability Name="runFullTrust" />
+</Capabilities>
