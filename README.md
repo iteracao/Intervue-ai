@@ -15,29 +15,29 @@ Built with .NET 8 and WPF, it captures system audio, performs real-time transcri
 
 ## 🧱 Architecture
 
-- **Desktop (WPF)** – UI and interaction
-- **Core** – orchestration, detection, domain logic
-- **Infrastructure** – audio capture, providers, integrations
+- **Desktop (WPF)** – UI and interaction  
+- **Core** – orchestration, detection, domain logic  
+- **Infrastructure** – audio capture, providers, integrations  
 
 ## ⚙️ Requirements
 
-- Windows 10 / 11
-- Audio output device
-- OpenAI API key (for cloud features)
-- Optional local models for offline transcription
+- Windows 10 / 11  
+- Audio output device  
+- OpenAI API key (for cloud features)  
+- Optional local models for offline transcription  
 
 ## 🔐 Privacy
 
 Intervue AI operates locally and does not perform hidden recording or background data collection.
 
-Audio is processed only when explicitly started by the user.
+The application runs only when explicitly started and does not capture audio in the background.
 
-👉 Privacy policy: https://yourusername.github.io/intervue-ai/privacy/
+👉 Privacy policy: https://iteracao.github.io/Intervue-ai/privacy/
 
-## 📦 Packaging
+## 🏢 Publisher
 
-The app is prepared for MSIX packaging and Microsoft Store distribution.
+ITERAÇÃO - SISTEMAS E SOLUÇÕES INFORMÁTICAS, LDA
 
 ## 📄 License
 
-MIT (or your choice)
+MIT License
