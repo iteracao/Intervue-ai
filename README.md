@@ -32,7 +32,7 @@ Intervue AI operates locally and does not perform hidden recording or background
 
 The application runs only when explicitly started and does not capture audio in the background.
 
-👉 Privacy policy: https://iteracao.github.io/Intervue-ai/privacy/
+👉 Privacy policy: 👉 Privacy policy: https://iteracao.github.io/Intervue-ai/privacy.html
 
 ## 🏢 Publisher
 
