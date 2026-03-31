@@ -25,8 +25,6 @@
 - [ ] App launches correctly from package
 - [ ] Audio capture works
 - [ ] OpenAI mode works
-- [ ] Vosk mode works if included
-- [ ] Faster-Whisper mode works if supported in packaged scenario
 
 ## Store assets
 - [ ] 1024x1024 icon

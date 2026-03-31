@@ -1,84 +1,70 @@
-# Intervue AI
+﻿# Intervue AI
 
-Real-time desktop AI assistant for live conversations.
+Real-time desktop AI assistant for live technical conversations.
 
-Intervue AI is a Windows desktop application that processes live conversations, detects questions, and suggests concise AI-powered answers in real time.
+Intervue AI is a Windows desktop application that captures system audio output, transcribes speech in real time, detects likely questions, and suggests concise AI-powered answers.
 
-Built with .NET 8 and WPF, it captures system audio, performs real-time transcription, applies heuristic question detection, and generates context-aware responses using AI.
-
----
-
-## 🚀 Features
-
-- Real-time system audio processing  
-- Live transcription (OpenAI, Vosk, Faster-Whisper)  
-- Automatic question detection (EN/PT)  
-- Context-aware AI answers  
-- Local-first desktop architecture  
-- Secure credential storage (Windows Credential Manager)  
+Built with .NET 8 and WPF, the current packaged app uses OpenAI for transcription and answer generation. Question detection and session orchestration run locally on the device.
 
 ---
 
-## 🧱 Architecture
+## Features
 
-- **Desktop (WPF)** – UI and interaction  
-- **Core** – orchestration, detection, domain logic  
-- **Infrastructure** – audio capture, providers, integrations  
-
----
-
-## 🧪 How it works
-
-1. Captures system audio output in real time  
-2. Segments audio into speech chunks using silence detection  
-3. Transcribes speech using the selected provider  
-4. Detects likely questions from the transcript  
-5. Builds a compact contextual prompt  
-6. Generates a concise AI-powered answer  
-7. Displays results instantly in the UI  
+- Real-time system audio processing
+- Live transcription
+- Automatic question detection
+- Context-aware AI answers
+- Secure credential storage with Windows Credential Manager
+- Desktop-first workflow
 
 ---
 
-## 📸 Screenshots
+## How it works
 
-### Live detection and AI answers
-![Live](assets/screenshots/live.png)
-
-### Configuration
-![Settings](assets/screenshots/settings.png)
-
----
-
-## ⚙️ Requirements
-
-- Windows 10 / 11  
-- Audio output device (speakers/headphones)  
-- OpenAI API key (for AI-powered features)  
-
-Optional:
-- Vosk model (offline transcription)  
-- Faster-Whisper executable and model (local transcription)  
+1. Captures system audio output in real time
+2. Segments audio into speech chunks using silence detection
+3. Transcribes speech with OpenAI
+4. Detects likely questions from transcript text
+5. Builds a compact contextual prompt
+6. Generates a concise AI-powered answer
+7. Displays results in the desktop UI
 
 ---
 
-## 🔐 Privacy
+## Requirements
 
-Intervue AI operates locally and does not perform hidden recording or background data collection.
-
-The application runs only when explicitly started and does not capture audio in the background.
-
-Audio and text are only sent to external AI services when explicitly configured by the user.
-
-👉 Privacy policy: https://iteracao.github.io/Intervue-ai/privacy.html
+- Windows 10 / 11
+- Audio output device
+- Internet connection for OpenAI features
+- OpenAI API key
 
 ---
 
-## 🏢 Publisher
+## What the app does not do
 
-ITERAÇÃO - SISTEMAS E SOLUÇÕES INFORMÁTICAS, LDA
+- It does not capture microphone input
+- It does not run hidden background recording when detection is stopped
+- It does not include Vosk or Faster-Whisper in the current packaged app
 
 ---
 
-## 📄 License
+## Privacy
+
+Intervue AI runs locally and does not perform hidden telemetry or background capture.
+
+Audio and text may be sent to OpenAI only during active transcription and answer-generation requests started by the user.
+
+Privacy policy: https://iteracao.github.io/Intervue-ai/privacy.html
+Support site: https://iteracao.github.io/Intervue-ai/
+
+---
+
+## Publisher
+
+ITERACAO - SISTEMAS E SOLUCOES INFORMATICAS, LDA
+
+---
+
+## License
 
 MIT License
